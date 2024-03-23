@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <meta name="description" content="Sigma Web Development Course - Tutorial #18">
+    <meta name="keywords" content="Sigma Web Development Course Batch OP CSS Box Model">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box" id="box1">
+        I am a box. My total height is 100px which includes 
+        the border, padding and content due to the `box-sizing: border-box` css property.
+    </div>
+    <div class="box" id="box2">I am another box.</div>
+    <div class="tips">
+        <ol type="I">
+            <li>Margin is not included in total height of any element in any case.</li>
+            <li>
+                If the 'box-sizing: border-box' css property is used, 
+                The total height includes the border, padding and content.
+            </li>
+            <li>Otherwise, the total height only includes the content.</li>
+            <li>
+                The margin between two elements is equal to the larger margin of the two elements.
+                For Example, <br>If two elements have 20px and 30px as their margin. 
+                Then, 30px is applied as the margin between them.
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
