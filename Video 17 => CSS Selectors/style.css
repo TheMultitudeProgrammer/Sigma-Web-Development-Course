@@ -1,0 +1,47 @@
+/* Element Selector */
+div {
+    background-color: #ccaed0;
+}
+
+/* Class Selector */
+.alt {
+    background-color: #9595d2;
+}
+
+/* ID Selector */
+#alt {
+    background-color: #00ab8e;
+}
+
+/* Decendence Selector */
+div p {
+    background-color: #bbbcbc;
+}
+
+/* Child Selector */
+div > p {
+    background-color: #d7c826;
+}
+
+/* Visited, Unvisited, Active, Hover Pseudo Selector */
+a:visited {
+    color: #00ab8e;
+}
+
+a:link {
+    color: #ccaed0;
+}
+
+a:active {
+    color: #d7c826;
+}
+
+a:hover {
+    color: #9595d2;
+}
+
+/* Universal Selector */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2vh;
+}
